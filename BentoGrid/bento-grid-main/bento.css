@@ -115,3 +115,35 @@ grid-template-columns: repeat(3);
     line-height: 22px;
 
 }
+.wholetwo{
+    display: flex;
+grid-template-columns: repeat(3);
+}
+.wyte{
+    width: 320px;
+    height: 400px;
+    background-color:  hsl(39, 100%, 71%);
+    border: 2px solid;
+    border-radius: 10px;
+    display: block;
+    justify-content: left;
+    align-items: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: -180px;
+}
+.wytep{
+    font-family:
+    font-size: 30px;
+    text-align: left;
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 25px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: -3px;
+    color: hsl(0, 0%, 7%);
+}
