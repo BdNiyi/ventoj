@@ -232,7 +232,7 @@ width: 700px;
 grid-template-columns: repeat(3);
 }
 .percent{
-    width: 210px;
+    width: 190px;
     height: 200px;
     background-color:  hsl(39, 100%, 71%);
     border: 2px solid white;
@@ -268,7 +268,7 @@ grid-template-columns: repeat(3);
      margin-left:2px;
  }
  .graw{
-    width: 445px;
+    width: 395px;
     height: 200px;
     background-color:  hsl(39, 100%, 71%);
     border: 2px solid;
@@ -298,6 +298,201 @@ grid-template-columns: repeat(3);
     height: 170px;
     margin-top: 20px;
     margin-left:20px;
+}
+@media only screen and (max-width:475px){
+    .genbody{
+    display: block;
+    margin: 10px 20px 20px 10px;
+    }
+    .whole{
+        display: block;
+        grid-template-columns: repeat(3);
+        
+        }
+        #social{
+            margin: 90px 90px 25px 120px;
+            font-size: 65px;
+            scale:1.3;
+            width:400px; 
+
+              }
+        .fivestars{
+            height: 70px;
+            width: 350px;
+            margin-right: 35px;
+            margin-top: 50px;
+    
+        }
+        .over{
+            margin-top: 30px;
+            font-size: 40px;
+            font-weight: lighter;
+        }
+        .starbox {
+            width: 675px;
+            height: 585px;
+            background-color:  hsl(256, 67%, 59%);
+            border: 2px solid;
+            border-radius: 15px;
+            display: block;
+            justify-content: left;
+            align-items: left;
+            font-family: "DM Sans", sans-serif;
+            color: hsl(0, 0%, 100%);
+            font-size: -10px;
+            text-align: center;
+            margin-right: 20px;
+        }
+        .create{
+            display: none;
+        }
+        .createphone{
+            width: 215px;
+    height: 290px;
+    background-color:  hsl(31, 66%, 93%);
+    border: 2px solid;
+    border-radius: 10px;
+    display: block;
+    justify-content: left;
+    align-items: left;
+    font-family: "DM Sans", sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    text-align: center;
+    margin-right: 20px;
+        }
+        .createp{
+            display:none;
+        }
+        .createpphone{
+            font-family: "DM Sans", sans-serif;
+            font-size: 30px;
+            text-align: left;
+            width: 200px;
+            margin-left: 30px;
+            margin-top: 30px;
+            line-height: 25px;
+            font-weight: 500;
+            letter-spacing: -2.5px;
+            width: 150px;
+            color: hsl(0, 0%, 7%);
+            
+        }
+        .createimg{
+            display: none;
+        }
+        .createimgphone{
+            width: 170px;
+            margin-top: 3px;
+            
+        
+        }
+        .manage{
+            display: none;
+        }
+        .managephone{
+            width: 670px;
+            height: 300px;
+            background-color: red/*hsl(0, 0%, 100%)*/;
+            border: 2px solid;
+            border-radius: 10px;
+            display: block;
+            justify-content: left;
+            align-items: left;
+            font-family: "DM Sans", sans-serif;
+            color: hsl(0, 0%, 100%);
+            font-size: 25px;
+            text-align: center;
+            margin-left: 2px;
+            margin-right: 15px;
+            margin-top: 50px;
+            overflow: hidden;
+        }
+        .managepphone{
+            font-family: "DM Sans", sans-serif; 
+            font-size: 20px;
+            text-align: left;
+            width: 150px;
+            margin: 30px 20px 10px 15px;
+            line-height: 23px;
+            font-weight: bold;
+            color: hsl(0, 0%, 7%);
+        }
+        .manageimgphone{
+            width: 200px;
+            height: 40px;
+            margin-top: 15px;
+            margin-left:45px;
+        }
+        .schedulebody {
+    display: none;
+}
+#schedule {
+    display: none;
+}
+.schimg{
+    display: none;
+}
+.schimg-container{
+   display: none;
+}
+.Optimize{
+ display: none;
+}
+.wholetwo{
+    display: none;
+}
+.wyte{
+   display: none;
+}
+.wytep{
+   display: none;
+}
+.wyteimg{
+    display: none;
+}
+.manage{
+    display: none;
+}
+.managep{
+ display: none;
+}
+.manageimg{
+    display: none;
+}
+.maintain{
+    display: none;
+}
+.maintainp{
+   display: none;
+}
+.maintainimg{
+   display: none;
+}
+.wholethree{
+    display: none;
+}
+.percent{
+    display: none;
+}
+.percenth{
+   display: none;
+}
+.percentp{
+   display: none;
+}
+.percentimg{
+   display: none;
+ }
+ .graw{
+   display: none;
+ }
+ .grawp{
+  display: none;
+ }
+ .grawimg{
+    display: none;
+}
 }
 /*
 }
